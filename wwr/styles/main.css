@@ -1,7 +1,8 @@
-.topnav {position: relative; text-align: center; background-color:#f1f1f1;}
-.logo {Height: 20%; Width: 20%}
+.topnav {position: relative; text-align: center; background-color:#f1f1f1; display:inline-block;}
+.logo {Height: 20%; Width: 20%; display:inline-block;}
+nav {display:inline-block;}
 ul {list-style-type:none; margin: 0; padding: 0; background-color: #f1f1f1;}
-li a {display: block-inline; color: #000; padding: 8px 16px; text-decoration:none;}
+li a {color: #000; padding: 8px 16px; text-decoration:none;}
 li a:hover {background-color: #555; color: white;}
 #hero {position:relative; text-align:center;}
 #heroimage {height:100%; width:100%}
