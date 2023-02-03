@@ -1,21 +1,36 @@
-body {background-color: aliceblue;}
-header {background-color: aliceblue;}
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+body {background-color: aliceblue; font-size: 22px; margin: 0; padding: 0;}
+header {background-color: aliceblue; font-family: Lato; text-align: center;}
 #content {max-width: 1600px; margin: 0 auto;}
-nav a {text-align: center; color: black; text-decoration: none;}
+nav li {list-style: none;}
+nav a {text-align: center; color: black; padding: 35px; font-size: 15px; text-decoration: none;}
 nav a:hover {background-color:grey; color:white;}
+#hero {font-family: Lato;}
 #heroimage {width: 100%;}
-#her-msg h1, #hero-msg h4 {text-align: center;}
+#hero-msg h1, #hero-msg h4 {text-align: center;}
 .button-box {text-align: center;}
-.book, .join {background-color: aliceblue; color: black; text-decoration: none;}
-.book:hover, .join:hover {color:white;}
-main section {text-align: center;}
-.msg {background-color: aliceblue;}
+.book, .join {background-color: aliceblue; color: black; text-decoration: none; font-size: 18px; padding: 15px 30px; margin-top: 50px; border-radius: 5px;}
+.book:hover, .join:hover {background-color:gray; color:white;}
+main section {text-align: center; font-family: TimesNewRoman; display:inline-block; width: 33%; margin:0 auto;}
+.msg {background-color: aliceblue; line-height: 1.5em; padding: 35px;}
 #background {height: 725px; background-color: bisque;}
-footer {background-color: aliceblue; color:black;}
+footer {background-color: aliceblue; color:black; padding: 25px 50px; margin-top: 200px;}
 footer a {color:black; text-decoration: none;}
 footer a:hover {color:white;}
-.home-title {color:black}
+.home-title {color:black; font-size: 2em; margin-top: 10px;}
 h4 {color: black;}
 .msg h2 {color: black;}
-.msg p {color:black;}
 footer p {font-size: 1.2em;}
+.rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
+.icon {width:20%; height:20%; padding-top: 10px;}
+.msg p {font-family: Lato; font-size: .8em; color:black; padding-bottom: 15px;}
+.msg a {font-family: Lato;}
+.social {margin: 0 auto; text-align: left;}
+.soc {width: 5%; height: 5%; padding-top: 15px; box-sizing: border-box;}
+h2 {margin: 0;}
+#logolink {padding-top: 5px;}
+.card-image {border: 10px solid black;}
+#background {height: 10px; width: 90%; margin: 0 auto; border-radius: 10px;}
