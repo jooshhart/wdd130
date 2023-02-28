@@ -88,3 +88,10 @@ main {display: grid; grid-template-columns: (1em, 10); float:left;}
         margin-top: 25px;
     }
 }
+
+
+/*Rivers page*/
+
+.rivsub {width: 95%; grid-column: 1/2; max-height: 300px;}
+#rivsub {display:grid; grid-template-columns: 1fr, 1fr; text-align: center;}
+.para {grid-column: 2/3; width: 75%;}
