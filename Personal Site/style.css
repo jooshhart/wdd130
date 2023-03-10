@@ -1,0 +1,33 @@
+/*Header&Footer*/
+
+header {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1em 1em 1em; height: 50px; background-color: aliceblue;}
+header img {width: 150px;}
+header a {color: black; display: inline-block; padding: 14px 16px; text-decoration: none; text-align: center; width: 25%; height: 100%;}
+header a:hover {background-color:grey; color:white;}
+
+footer {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1em 1em 1em; width: 100%;}
+footer img {width: 70px;}
+
+.a {grid-column: 1/2;}
+.b {grid-column: 2/3;}
+header .b {grid-row: 2/3;}
+.c {grid-column: 3/4;}
+header .c {grid-row: 2/3;}
+.d {grid-column: 4/5;}
+header .d {grid-row: 2/3;}
+
+/*Home Page*/
+
+#join {background-image: url("images/outdoor.jfif"); height: 700px; width: 100%; position: relative;}
+#join a {background-color: aliceblue; color: black; text-decoration: none; font-size: 18px; padding: 15px 30px; border-radius: 5px; width: 50%; margin: 25% 0 0 45%; position: relative; float: left;}
+#join a:hover {background-color:gray; color:white; opacity: .7;}
+#quote {display: grid; grid-template-columns: 1fr 1fr;}
+#quote img {width: 70%;}
+#quote p {text-align: center; font-size: 20px; padding: 20px;}
+
+/*FAQ*/
+
+
+
+/*Contact Us*/
+
